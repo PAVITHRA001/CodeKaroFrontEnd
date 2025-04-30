@@ -1,0 +1,40 @@
+.font {
+  font-family: Arial, Helvetica, serif;
+  font-size: 32px;
+}
+
+.box {
+  background-color: white;
+  width: 250px;
+  border-radius: 10px;
+  margin: 300px auto;
+  padding: 30px 30px;
+}
+
+.img {
+  padding-left: 20px;
+  width: 90%;
+}
+
+.textbox {
+  margin: 0 0 0 20px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.textbox:focus {
+    outline: none;
+    border: 1px solid #6a2df8;
+    box-shadow: 1px 1px 2px #6a2df8, 0 0 3px #6a2df8, 0 0 3px #6a2df8;
+}
+
+.button {
+  margin: 10px 0 0 20px;
+  padding: 10px 77px 10px 75px;
+  border: none;
+  background-color: #6a2df8;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+}

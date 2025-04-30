@@ -1,0 +1,95 @@
+.card {
+  margin: auto;
+  padding: 30px 30px;
+  border: 1px solid white;
+  width: 25%;
+  margin-top: 10%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.img {
+  margin: auto;
+  width: 13%;
+  padding-left: 40%;
+}
+
+.heading {
+  padding-left: 28%;
+}
+
+.para {
+  padding: 0 44px 0 44px;
+  color: #555555;
+  font-size: 18px;
+}
+
+
+.workBox{
+  border: 1px solid #e6e6fa;
+  padding: 10px;
+  background-color: #e6e6fa;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workText {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.personal {
+  display: flex;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+}
+
+.workImg {
+  box-sizing: border-box;
+  width: 10%;
+}
+
+
+.rightArrow {
+  padding-left: 80px;
+  width: 8%;
+}
+
+.work {
+  display: flex;
+}
+
+
+.textbox {
+  padding: 19px 142px 15px 20px;
+  border: 2px solid #6a2df8;
+  border-radius: 5px;
+  margin-left: 8%;
+  font-size: 20px;
+  outline-width: 0;
+}
+
+.textbox::placeholder{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.textbox:focus {
+  outline: none;
+  border-color: rebeccapurple;
+  box-shadow: 0 0 10px #6a2df8;
+}
+
+
+.button {
+  margin: 16px 0 0 32px;
+  padding: 16px 98px 16px 93px;
+  border: none;
+  background-color: #6a2df8;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 17px;:
+}

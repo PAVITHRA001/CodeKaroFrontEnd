@@ -1,0 +1,47 @@
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: #6a2df8;
+  flex-shrink: 0;
+  animation-name: cardmove;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+}
+
+@keyframes cardmove {
+  0% {
+
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+.cardholder {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  margin-top: 250px;
+}
+
+.user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tint{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(51.91%, transparent), color-stop(75.88%, rgba(0, 0, 0, 0.3)));
+  background: linear-gradient(180deg, transparent 51.91%, rgba(0, 0, 0, 0.3) 75.88%);
+}

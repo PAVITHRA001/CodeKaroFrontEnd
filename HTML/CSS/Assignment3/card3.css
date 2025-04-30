@@ -1,0 +1,62 @@
+.card {
+  margin: auto;
+  padding: 30px 30px;
+  border: 1px solid white;
+  width: 25%;
+  margin-top: 10%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.img {
+  margin: auto;
+  width: 13%;
+  padding-left: 42%;
+}
+
+.heading {
+  padding-left: 22%;
+}
+
+.para {
+  padding: 0 44px 0 44px;
+  color: #555555;
+  font-size: 18px;
+}
+
+
+.workBox{
+  border: 1px solid #e6e6fa;
+  padding: 10px;
+  background-color: #e6e6fa;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workText {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.personal {
+  display: flex;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+}
+
+.workImg {
+  box-sizing: border-box;
+  width: 10%;
+}
+
+
+.rightArrow {
+  padding-left: 80px;
+  width: 8%;
+}
+
+.work {
+  display: flex;
+}
